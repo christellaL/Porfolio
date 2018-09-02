@@ -577,7 +577,8 @@ img {
   width: 87.5%;
   margin: 0 auto;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -1128,17 +1129,25 @@ img {
   font-weight: bold;
   text-align: center;
   margin: 1em 0;
+  color: #49222e;
 }
 
 @media screen and (min-width: 768px) {
   .c-h3 {
     font-size: 1.33333rem;
     margin-top: 0;
+    text-align: center;
   }
 }
 
 .c-p {
   line-height: 2;
+}
+
+.c-z {
+  line-height: 2;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .c-dl {
@@ -1147,6 +1156,8 @@ img {
 
 .c-dl .c-dt, .c-dl .c-dd {
   display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* ==========================================
@@ -1158,13 +1169,14 @@ img {
   font-weight: bold;
   font-size: 1.28571rem;
   line-height: 2;
-  margin-top: 1.5em;
+  margin-top: 0em;
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
   .c-concept {
     font-size: 1.33333rem;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -1250,6 +1262,7 @@ img {
 
 .c-casesub {
   margin-top: 1em;
+  font-style: italic;
 }
 
 .c-casesub:before, .c-casesub:after {
@@ -1361,17 +1374,20 @@ img {
 
 .u-hidden-s {
   display: none;
+  font-weight: bold
 }
 
 @media screen and (min-width: 768px) {
   .u-hidden-s {
     display: block;
+    font-weight: bold
   }
 }
 
 @media screen and (min-width: 768px) {
   br.u-hidden-s {
     display: inline;
+    font-weight: bold
   }
 }
 
